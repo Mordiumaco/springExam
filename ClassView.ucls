@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="exam.board.model" project="springExam" 
+    file="/springExam/src/main/java/exam/board/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="122" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="exam" project="springExam" file="/springExam/src/main/java/exam" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="277" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="3" language="java" name="exam.post.model.PageVO" project="springExam" 
+    file="/springExam/src/main/java/exam/post/model/PageVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="451" y="108"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="exam.board.service.IBoardService" project="springExam" 
+    file="/springExam/src/main/java/exam/board/service/IBoardService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11875" y="787"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="exam.login.web.LogInController" project="springExam" 
+    file="/springExam/src/main/java/exam/login/web/LogInController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11588" y="63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="6" language="java" name="exam.file" project="springExam" file="/springExam/src/main/java/exam/file" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="624" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="7" language="java" name="exam.login.dao.ILoginDao" project="springExam" 
+    file="/springExam/src/main/java/exam/login/dao/ILoginDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10701" y="742"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="exam.file.model.FileVO" project="springExam" 
+    file="/springExam/src/main/java/exam/file/model/FileVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="797" y="162"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="exam.post.dao" project="springExam" 
+    file="/springExam/src/main/java/exam/post/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="974" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="exam.comment.web.CommentController" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/web/CommentController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8778" y="36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="exam.post.dao.PostDao" project="springExam" 
+    file="/springExam/src/main/java/exam/post/dao/PostDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9716" y="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="exam.interceptor.PerformanceCheckInterceptor" project="springExam" 
+    file="/springExam/src/main/java/exam/interceptor/PerformanceCheckInterceptor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1278" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="13" language="java" name="exam.file.service" project="springExam" 
+    file="/springExam/src/main/java/exam/file/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1588" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="14" language="java" name="exam.login.model.UserVO" project="springExam" 
+    file="/springExam/src/main/java/exam/login/model/UserVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1764" y="324"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="exam.util.encrypt.KISA_SHA256.Common" project="springExam" 
+    file="/springExam/src/main/java/exam/util/encrypt/KISA_SHA256.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5633" y="922"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="16" language="java" name="exam.board.dao" project="springExam" 
+    file="/springExam/src/main/java/exam/board/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1937" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="17" language="java" name="exam.util" project="springExam" file="/springExam/src/main/java/exam/util" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2085" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="18" language="java" name="exam.login.dao.LoginDao" project="springExam" 
+    file="/springExam/src/main/java/exam/login/dao/LoginDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10701" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="exam.board.model.BoardVO" project="springExam" 
+    file="/springExam/src/main/java/exam/board/model/BoardVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2265" y="162"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="20" language="java" name="exam.login.web" project="springExam" 
+    file="/springExam/src/main/java/exam/login/web" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2450" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="21" language="java" name="exam.post.model.PostVO" project="springExam" 
+    file="/springExam/src/main/java/exam/post/model/PostVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2632" y="324"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="22" language="java" name="exam.login.service" project="springExam" 
+    file="/springExam/src/main/java/exam/login/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2822" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="23" language="java" name="exam.comment.service.CommentService" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/service/CommentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9054" y="63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="exam.file.web.FileController" project="springExam" 
+    file="/springExam/src/main/java/exam/file/web/FileController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3102" y="36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="25" language="java" name="exam.board" project="springExam" file="/springExam/src/main/java/exam/board" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3367" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="26" language="java" name="exam.comment.service" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3537" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="27" language="java" name="exam.file.dao" project="springExam" 
+    file="/springExam/src/main/java/exam/file/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3706" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="28" language="java" name="exam.board.dao.BoardDao" project="springExam" 
+    file="/springExam/src/main/java/exam/board/dao/BoardDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12458" y="90"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="exam.util.encrypt.KISA_SHA256" project="springExam" 
+    file="/springExam/src/main/java/exam/util/encrypt/KISA_SHA256.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5781" y="324"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="30" language="java" name="exam.interceptor" project="springExam" 
+    file="/springExam/src/main/java/exam/interceptor" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3858" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="31" language="java" name="exam.board.service" project="springExam" 
+    file="/springExam/src/main/java/exam/board/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4027" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="32" language="java" name="exam.post.model" project="springExam" 
+    file="/springExam/src/main/java/exam/post/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4197" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="33" language="java" name="exam.comment.web" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/web" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4368" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="34" language="java" name="exam.login" project="springExam" file="/springExam/src/main/java/exam/login" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4528" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="35" language="java" name="exam.util.encrypt" project="springExam" 
+    file="/springExam/src/main/java/exam/util/encrypt" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4680" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="36" language="java" name="exam.comment" project="springExam" 
+    file="/springExam/src/main/java/exam/comment" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4837" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="37" language="java" name="exam.util.error.DBError" project="springExam" 
+    file="/springExam/src/main/java/exam/util/error/DBError.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5113" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="exam.comment.dao.CommentDao" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/dao/CommentDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9401" y="72"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="exam.file.dao.FileDao" project="springExam" 
+    file="/springExam/src/main/java/exam/file/dao/FileDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11873" y="63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="40" language="java" name="exam.board.dao.IBoardDao" project="springExam" 
+    file="/springExam/src/main/java/exam/board/dao/IBoardDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12308" y="787"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="41" language="java" name="exam.comment.service.ICommentService" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/service/ICommentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9054" y="769"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="42" language="java" name="exam.post.service" project="springExam" 
+    file="/springExam/src/main/java/exam/post/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5397" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="43" language="java" name="exam.post.web" project="springExam" 
+    file="/springExam/src/main/java/exam/post/web" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5557" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="44" language="java" name="exam.post.web.PostController" project="springExam" 
+    file="/springExam/src/main/java/exam/post/web/PostController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10349" y="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="45" language="java" name="exam.board.web" project="springExam" 
+    file="/springExam/src/main/java/exam/board/web" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6008" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="46" language="java" name="exam.file.dao.IFileDao" project="springExam" 
+    file="/springExam/src/main/java/exam/file/dao/IFileDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11590" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="47" language="java" name="exam.login.dao" project="springExam" 
+    file="/springExam/src/main/java/exam/login/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6163" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="48" language="java" name="exam.post.service.PostService" project="springExam" 
+    file="/springExam/src/main/java/exam/post/service/PostService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10001" y="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="exam.util.error.LoginCheck" project="springExam" 
+    file="/springExam/src/main/java/exam/util/error/LoginCheck.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6437" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="exam.util.error.LoginRight" project="springExam" 
+    file="/springExam/src/main/java/exam/util/error/LoginRight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6836" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="exam.comment.dao.ICommentDao" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/dao/ICommentDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9401" y="769"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="52" language="java" name="exam.util.error" project="springExam" 
+    file="/springExam/src/main/java/exam/util/error" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7110" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="53" language="java" name="exam.file.web" project="springExam" 
+    file="/springExam/src/main/java/exam/file/web" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7255" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="54" language="java" name="exam.login.service.ILoginService" project="springExam" 
+    file="/springExam/src/main/java/exam/login/service/ILoginService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11297" y="742"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="55" language="java" name="exam.post" project="springExam" file="/springExam/src/main/java/exam/post" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7397" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="56" language="java" name="exam.aop.LoggingAdvice" project="springExam" 
+    file="/springExam/src/main/java/exam/aop/LoggingAdvice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7541" y="27"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="exam.file.service.FileService" project="springExam" 
+    file="/springExam/src/main/java/exam/file/service/FileService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11302" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="58" language="java" name="exam.aop" project="springExam" file="/springExam/src/main/java/exam/aop" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7685" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="59" language="java" name="exam.login.model" project="springExam" 
+    file="/springExam/src/main/java/exam/login/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7838" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="60" language="java" name="exam.file.model" project="springExam" 
+    file="/springExam/src/main/java/exam/file/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7997" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="61" language="java" name="exam.comment.model.CommentVO" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/model/CommentVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8190" y="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="62" language="java" name="exam.post.dao.IPostDao" project="springExam" 
+    file="/springExam/src/main/java/exam/post/dao/IPostDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9857" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="63" language="java" name="exam.util.encrypt.KISA_SHA256.SHA256_INFO" project="springExam" 
+    file="/springExam/src/main/java/exam/util/encrypt/KISA_SHA256.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5848" y="778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="64" language="java" name="exam.post.service.IPostService" project="springExam" 
+    file="/springExam/src/main/java/exam/post/service/IPostService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10146" y="823"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="65" language="java" name="exam.comment.dao" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8395" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="66" language="java" name="exam.login.service.LoginService" project="springExam" 
+    file="/springExam/src/main/java/exam/login/service/LoginService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11009" y="36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="exam.board.service.BoardService" project="springExam" 
+    file="/springExam/src/main/java/exam/board/service/BoardService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12158" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="68" language="java" name="exam.file.service.IFileService" project="springExam" 
+    file="/springExam/src/main/java/exam/file/service/IFileService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10984" y="760"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="69" language="java" name="exam.comment.model" project="springExam" 
+    file="/springExam/src/main/java/exam/comment/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8579" y="12"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <realization id="70">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="71">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="72" name="dao"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="74">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="64"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="62"/>  
+  </realization>  
+  <association id="77">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="78" name="fileService"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="80">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <association id="81">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="82" name="dao"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="84">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <association id="85">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="86" name="commentService"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="89" name="loginService"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="91">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="68"/>  
+  </realization>  
+  <association id="92">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="93" name="commentService"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="96" name="dao"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="98">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="63"/>  
+  </nesting>  
+  <realization id="99">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="54"/>  
+  </realization>  
+  <nesting id="100">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <association id="101">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="102" name="dao"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="105" name="boardService"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="107">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <realization id="108">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="46"/>  
+  </realization>  
+  <association id="109">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="110" name="dao"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="62" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="113" name="postService"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
